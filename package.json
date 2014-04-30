@@ -1,0 +1,18 @@
+{
+  "name": "adb-client",
+  "version": "0.0.1",
+  "description": "Send ADB commands to ADB server.",
+  "author": {
+    "name": "evanxd",
+    "email": "itoyxd@gmail.com"
+  },
+  "keyboard": [
+    "adb",
+    "android"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evanxd/adb-client.git"
+  }
+}
