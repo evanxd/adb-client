@@ -16,7 +16,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "exec-sync": "0.1.6"
+    "execSync": "1.0.1-pre"
   },
   "devDependencies": {
     "jshint": "2.5.0",
