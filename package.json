@@ -1,6 +1,6 @@
 {
   "name": "adb-client",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Send ADB commands to ADB server.",
   "author": {
     "name": "evanxd",
