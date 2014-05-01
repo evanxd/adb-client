@@ -6,13 +6,23 @@
     "name": "evanxd",
     "email": "itoyxd@gmail.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evanxd/adb-client.git"
+  },
   "keyboard": [
     "adb",
     "android"
   ],
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/evanxd/adb-client.git"
+  "dependencies": {
+    "exec-sync": "0.1.6"
+  },
+  "devDependencies": {
+    "jshint": "2.5.0",
+    "mocha": "1.18.2"
+  },
+  "scripts": {
+    "test": "make"
   }
 }
