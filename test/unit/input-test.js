@@ -5,17 +5,17 @@ var Input = require('../../lib/input'),
 
 suite('Input', function() {
   var subject,
-      cmd;
+      adb;
 
   setup(function() {
-    cmd = new MockAdbCommander();
-    subject = new Input(cmd);
+    adb = new MockAdbCommander();
+    subject = new Input(adb);
   });
 
   suite('#tap', function() {
     test('should send tap command', function() {
       subject.tap(0, 0);
-      assert.equal(cmd.command, 'shell input tap 0 0');
+      assert.equal(adb.command, 'adb shell input tap 0 0');
     });
   });
 });
